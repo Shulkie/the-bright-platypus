@@ -1,0 +1,18 @@
+Nombre:
+
+Portafolio
+Fotitos
+Testimonios de clientes
+Formulario de contactos
+
+
+The Bright Boxes 
+The Bright Platypus
+
+Color palette:
+
+#04ACB4 Dark Turquoise
+#04ABAB Dark Cyan
+#F9B338 Sandy Brown
+#060605 Black
+#845C1C Saddle Brown
