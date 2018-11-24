@@ -46,7 +46,10 @@ img{
     display:block;
 text-decoration:none;
 color: #845c1c;
-font-size: 30px;
+font-size: 20px;
+position: relative;
+margin-top: 85px;
+height: 1px;
 
 
 }
