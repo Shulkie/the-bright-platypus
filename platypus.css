@@ -7,15 +7,29 @@
     font-family:'Roboto Mono', monospace;
     src: url(https://fonts.googleapis.com/css?family=Roboto+Mono);
 }
+.englobado{
 
+display: flex;
+height: 20%;
+position: relative;
+align-items: center;
+
+
+
+}
 .Title {
+    display:flex;
     width: 100%;
-    padding: 30px;
+  height: 80%;
  /*recordar hacer media query para iphone para la imagen del bichito*/
     font-family: "Titulos";
-    font-size: 2.5VW;
+    font-size: 3VW;
     background-image: linear-gradient(to right, #04acb4, #2ab898, #70bf6e, #b3bf44, #f9b338);
+    padding-left: 20%;
+align-items: center;
+    
 } 
+
 
 a {
     font-family: 'Roboto Mono', monospace;
@@ -23,13 +37,16 @@ a {
 
 img{
     width:20%;
-    float: left;
+    height:auto;
+    position: absolute;
+    margin-top: 3%;
 
 }
 .menu a  {
-    display: inline-block;
+    display:block;
 text-decoration:none;
 color: #845c1c;
+font-size: 30px;
 
 
 }
