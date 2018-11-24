@@ -1,3 +1,13 @@
+@font-face {
+    font-family:"Titulos";
+    src: url(./fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+@font-face {
+    font-family:'Roboto Mono', monospace;
+    src: url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+}
+
 .Title {
     width: 100%;
     padding: 30px;
@@ -7,14 +17,12 @@
     background-image: linear-gradient(to right, #04acb4, #2ab898, #70bf6e, #b3bf44, #f9b338);
 } 
 
+a {
+    font-family: 'Roboto Mono', monospace;
+}
 
 img{
     width:20%;
     float: left;
 
-}
-
-@font-face {
-    font-family:"Titulos";
-    src: url(./fonts/Press_Start_2P/PressStart2P-Regular.ttf);
 }
