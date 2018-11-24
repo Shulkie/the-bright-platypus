@@ -1,0 +1,17 @@
+.Title {
+    width: 100%;
+    padding: 30px;
+    border-style: solid;
+    border-color: pink;
+    background-color: #04acb4;
+    font-family: "Titulos";
+}
+
+img{
+    width:50%;
+}
+
+@font-face {
+    font-family:"Titulos";
+    src: url(./fonts/Black_Han_Sans/BlackHanSans-Regular.ttf);
+}
