@@ -1,17 +1,20 @@
 .Title {
     width: 100%;
     padding: 30px;
-    border-style: solid;
-    border-color: pink;
-    background-color: #04acb4;
+ /*recordar hacer media query para iphone para la imagen del bichito*/
     font-family: "Titulos";
-}
+    font-size: 2.5VW;
+    background-image: linear-gradient(to right, #04acb4, #2ab898, #70bf6e, #b3bf44, #f9b338);
+} 
+
 
 img{
-    width:50%;
+    width:20%;
+    float: left;
+
 }
 
 @font-face {
     font-family:"Titulos";
-    src: url(./fonts/Black_Han_Sans/BlackHanSans-Regular.ttf);
+    src: url(./fonts/Press_Start_2P/PressStart2P-Regular.ttf);
 }
