@@ -26,3 +26,10 @@ img{
     float: left;
 
 }
+.menu a  {
+    display: inline-block;
+text-decoration:none;
+color: #845c1c;
+
+
+}
