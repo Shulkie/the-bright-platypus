@@ -1,6 +1,6 @@
 body {
    
-    background-color: #bebe9d;
+    background-color:rgb(231, 229, 229);
 }
 
 
@@ -54,12 +54,22 @@ img{
 }
 .menu a  {
     display:block;
+    width:20%;
 text-decoration:none;
 color: #845c1c;
 font-size: 20px;
 position: relative;
 margin-top: 85px;
 height: 1px;
+background: linear-gradient(to right, #04acb4, #2ab898, #70bf6e, #b3bf44, #f9b338);
 
 
+}
+
+.cuerpo {
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: -30%;
+    
 }
