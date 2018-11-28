@@ -16,3 +16,6 @@ Color palette:
 #F9B338 Sandy Brown
 #060605 Black
 #845C1C Saddle Brown
+
+Puede servir para responsive  chico
+https://www.w3schools.com/howto/howto_css_icon_buttons.asp
