@@ -1,5 +1,5 @@
 body {  
-    background-color: white:
+    background-color: white;
 }
 
 
@@ -45,7 +45,7 @@ img{
 }
 .menu a  {
     font-family: 'Roboto Mono', monospace;
-    flex-direction: column;
+    display:block;
     text-decoration:none;
     color: #845c1c;
     font-size: 20px;
