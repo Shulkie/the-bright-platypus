@@ -13,6 +13,8 @@ body {
     src: url(https://fonts.googleapis.com/css?family=Roboto+Mono);
 }
 
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding');
+
 .header{
 display: flex;
 height: 20%;
@@ -41,11 +43,14 @@ img{
     height:auto;
     position: absolute;
     margin: 3%;
+}
 
+.menu {
+    display: flex;
+    flex-direction: column;
 }
 .menu a  {
     font-family: 'Roboto Mono', monospace;
-    display:block;
     text-decoration:none;
     color: #845c1c;
     font-size: 20px;
@@ -55,10 +60,21 @@ img{
     background: linear-gradient(to right, #04acb4, #2ab898, #70bf6e, #b3bf44, #f9b338);
 }
 
-.cuerpo {
+.contenido {
     display: flex;
-    align-items: center;
-    margin-left: 30%;
-    margin-top: -30%;
-    
+    flex-direction: column;
+    margin-left: 22%;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.cliente {
+    margin-bottom: 10%;
+}
+
+.sabemos {
+    border-top: #04acb4 solid;
+}
+
+li {
+    list-style-image: url('icon.png');
 }
