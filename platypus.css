@@ -33,11 +33,6 @@ align-items: center;
 align-items: center;  
 } 
 
-.secciones {
-   display:flex;
-   flex-wrap: wrap; 
-}
-
 img{
     width:15%;
     height:auto;
@@ -45,9 +40,15 @@ img{
     margin: 3%;
 }
 
+.secciones {
+   display:flex;
+}
+
+
 .menu {
     display: flex;
     flex-direction: column;
+
 }
 .menu a  {
     font-family: 'Roboto Mono', monospace;
@@ -63,12 +64,12 @@ img{
 .contenido {
     display: flex;
     flex-direction: column;
-    margin-left: 22%;
     font-family: 'Nanum Gothic Coding', monospace;
+    margin: 5%;
 }
 
 .cliente {
-    margin-bottom: 10%;
+
 }
 
 .sabemos {
