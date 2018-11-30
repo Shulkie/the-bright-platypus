@@ -44,11 +44,9 @@ img{
    display:flex;
 }
 
-
 .menu {
     display: flex;
     flex-direction: column;
-
 }
 .menu a  {
     font-family: 'Roboto Mono', monospace;
@@ -69,7 +67,7 @@ img{
 }
 
 .cliente {
-
+margin-bottom: 10%
 }
 
 .sabemos {
