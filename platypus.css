@@ -1,5 +1,7 @@
 body {  
-    background-color: white;
+    background-image: url('./Background/blue2.png');
+    background-size: auto 150%;
+    opacity: 30%;
 }
 
 
