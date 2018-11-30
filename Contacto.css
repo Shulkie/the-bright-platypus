@@ -64,7 +64,7 @@ img{
     border-image-slice: 1 0 0 0;
 }
 
-#inicio {
+#Contacto {
     color: #04acb4;
     text-decoration: none;
 }
@@ -74,14 +74,6 @@ img{
     flex-direction: column;
     font-family: 'Nanum Gothic Coding', monospace;
     margin: 5%;
-}
-
-.cliente {
-margin-bottom: 10%
-}
-
-.sabemos {
-    border-top: #04acb4 solid;
 }
 
 li {
