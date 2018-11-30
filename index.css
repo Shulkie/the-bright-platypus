@@ -76,5 +76,5 @@ margin-bottom: 10%
 }
 
 li {
-    list-style-image: url('icon.png');
+    list-style-image: url('./Images/icon.svg');
 }
