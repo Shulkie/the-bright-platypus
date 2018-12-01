@@ -1,6 +1,7 @@
 body {  
     background-image: url('./Background/blue2.png');
-    background-size: 120% auto;}
+    background-size: 120% auto;
+}
 
 @font-face {
     font-family:"Titulos";
