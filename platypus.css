@@ -64,7 +64,7 @@ img{
     border-image-slice: 1 0 0 0;
 }
 
-#inicio {
+.activo {
     color: #04acb4;
     text-decoration: none;
 }
