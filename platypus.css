@@ -98,9 +98,10 @@ li {
    
 }
 .formulario{
-    margin-top:50%;
+    margin-top:70%;
     margin-left: 2%;
   display:flex;
+
 }
 
 input[type=submit] {
@@ -115,4 +116,12 @@ input[type=submit] {
  margin-top: 2%;
  float: left;
  width: 80%
+}
+
+footer{
+    padding: 5px;
+    font-family: "Titulos";
+     background-image: linear-gradient(to right, #04acb4, #2ab898, #70bf6e, #b3bf44, #f9b338);
+ margin-top:10%;
+
 }
