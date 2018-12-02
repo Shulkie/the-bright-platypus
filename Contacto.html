@@ -21,14 +21,34 @@
                 <a href="./index.html">Inicio</a>
                 <a href="./Nosotras.html">Nosotras</a>
                 <a href="./Portafolio.html">Portafolio</a>
-                <a href="./Contacto.html" class="activo">Contacto</a>
+                <a href="./Contacto.html" id="activo">Contacto</a>
                 <a href="./Endless.html" >Endless loop of doom</a> <!--hola, señor burro, yo diseño web, querer dinero, estar enfermas-->
             </div>
-            <div class="contenido">
-                <form>
-                    <!--Contenido agregar-->
-                </form>
-            </div>
+           
+                    <div class="contacto">
+                        <div>
+                        <img src="http://redwoodcoastmusicfestivals.org/wp-content/uploads/2018/07/Contact-us-2.jpg" style="width:30%">
+                      </div>
+                      <div class="formulario">
+                        <form action="/action_page.php">
+                          <label for="Nombre">Nombre o Empresa</label>
+                          <input type="text" id="nombre" name="nombre" placeholder="Escriba aqui su nombre">
+                          
+                         <label for="pais">País</label>
+                          <select id="pais" name="pais">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Uruguay">Uruguay</option>
+                            <option value="otro">Otro</option>
+                          </select>
+                          <div></div>
+                          <label for="Consulta"></label>
+                          <textarea id="consulta" name="consulta" placeholder="Escriba aqui su consulta" style="height:170px"></textarea>
+                          <input type="submit" value="Enviar">
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+               
         </div>
     </body>
 </html>

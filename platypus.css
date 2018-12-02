@@ -64,7 +64,7 @@ img{
     border-image-slice: 1 0 0 0;
 }
 
-.activo {
+#activo {
     color: #04acb4;
     text-decoration: none;
 }
@@ -86,4 +86,32 @@ margin-bottom: 10%
 
 li {
     list-style-image: url('./Images/icon.svg');
+}
+
+.contacto{
+
+    width: 45%;
+    display: flex;
+    font-family: 'Nanum Gothic Coding', monospace;
+
+   
+   
+}
+.formulario{
+    margin-top:50%;
+    margin-left: 2%;
+  display:flex;
+}
+
+input[type=submit] {
+    background-color:#04acb4;
+    color: white;
+    border: none;
+    margin-top: 2%
+}
+    
+
+#consulta{
+ margin-top: 2%;
+ float: left;
 }
