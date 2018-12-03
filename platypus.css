@@ -1,6 +1,6 @@
 body {  
     background-image: url('./Background/blue2.png');
-    background-size: 120% auto;
+    background-size: 120% 120%;
 }
 
 
@@ -48,7 +48,7 @@ img{
 .menu {
     display: flex;
     flex-direction: column;
-    margin-top:30px;
+    margin-top:25px;
 }
 .menu a  {
     font-family: 'Roboto Mono', monospace;
@@ -56,8 +56,8 @@ img{
     color: #845c1c;
     font-size: 20px;
     position: relative;
-    margin-top: 60px;
-    padding-top: 10px;
+    margin-top: 50px;
+    padding-top: 20px;
     border-style: solid;
     border-width: 2px;
     border-image: linear-gradient(to right, #04acb4, #2ab898, #70bf6e, #b3bf44, #f9b338);
@@ -74,14 +74,17 @@ img{
     flex-direction: column;
     font-family: 'Nanum Gothic Coding', monospace;
     margin: 5%;
-}
+    line-height: 2.5;
+}   
 
 .cliente {
-margin-bottom: 10%
+margin-bottom: 5%;
+margin-right: 40%;
 }
 
 .sabemos {
     border-top: #04acb4 solid;
+    margin-right: 40%;
 }
 
 li {
@@ -89,21 +92,20 @@ li {
 }
 
 .contacto{
-
     width: 45%;
     display: flex;
-    font-family: 'Nanum Gothic Coding', monospace;
-
-   
-   
+    font-family: 'Nanum Gothic Coding', monospace; 
 }
+
 .formulario{
     margin-top:70%;
     margin-left: 2%;
   display:flex;
-
 }
 
+.nosotras {
+    margin-right: 40%;
+}
 input[type=submit] {
     background-color:#04acb4;
     color: white;
@@ -111,7 +113,6 @@ input[type=submit] {
     margin-top: 2%
 }
     
-
 #consulta{
  margin-top: 2%;
  float: left;
@@ -119,9 +120,12 @@ input[type=submit] {
 }
 
 footer{
-    padding: 5px;
-    font-family: "Titulos";
-     background-image: linear-gradient(to right, #04acb4, #2ab898, #70bf6e, #b3bf44, #f9b338);
- margin-top:10%;
-
+    padding: 10px;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    background-image: linear-gradient(to right, #04acb4, #2ab898, #70bf6e, #b3bf44, #f9b338);
+    margin-top:10%;
+    font-size: 80%;
 }
+
+a:href {    text-decoration: none}
