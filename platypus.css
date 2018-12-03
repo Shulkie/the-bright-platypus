@@ -39,6 +39,11 @@ img{
     height:auto;
     position: absolute;
     margin: 3%;
+    cursor: pointer;
+    transition: 1s;
+}
+img:hover {
+    width: 30%
 }
 
 .secciones {
@@ -129,3 +134,4 @@ footer{
 }
 
 a:href {    text-decoration: none}
+
