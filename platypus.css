@@ -3,7 +3,6 @@ body {
     background-size: 120% 120%;
 }
 
-
 @font-face {
     font-family:"Titulos";
     src: url(./fonts/Press_Start_2P/PressStart2P-Regular.ttf);
@@ -22,6 +21,20 @@ height: 20%;
 position: relative;
 align-items: center;
 }
+
+.header img{
+    width:15%;
+    height:auto;
+    position: absolute;
+    margin: 3%;
+    cursor: pointer;
+    transition: 1s;
+}
+.header img:hover {
+    width: 30%;
+    transform: rotate(360deg)
+}
+
 .Title {
     display:flex;
     width: 100%;
@@ -33,19 +46,6 @@ align-items: center;
     padding-left: 20%;
 align-items: center;  
 } 
-
-img{
-    width:15%;
-    height:auto;
-    position: absolute;
-    margin: 3%;
-    cursor: pointer;
-    transition: 1s;
-}
-img:hover {
-    width: 30%;
-    transform: rotate(360deg)
-}
 
 .secciones {
    display:flex;
@@ -97,21 +97,22 @@ li {
     list-style-image: url('./Images/icon.svg');
 }
 
-.contacto{
-    width: 45%;
-    display: flex;
-    font-family: 'Nanum Gothic Coding', monospace; 
-}
-
-.formulario{
-    margin-top:70%;
-    margin-left: 2%;
-  display:flex;
-}
-
 .nosotras {
     margin-right: 40%;
 }
+.portafolio { /*cambiar, agregado solo para el orden si le hacemos algo*/
+    background: black;
+}
+
+.contacto{
+    margin-left: 10%;
+    margin-right: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Roboto Mono", monospace; 
+}
+
+
 input[type=submit] {
     background-color:#04acb4;
     color: white;
@@ -134,5 +135,9 @@ footer{
     font-size: 80%;
 }
 
-a:href {    text-decoration: none}
+
+a {
+    text-decoration: none;
+    color: black 
+}
 

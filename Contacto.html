@@ -25,39 +25,38 @@
                 <a href="./Endless.html" >Endless loop of doom</a> <!--hola, señor burro, yo diseño web, querer dinero, estar enfermas-->
             </div>
            
-                    <div class="contacto">
-                        <div class="telefono">
-                        <img src="./Images/telefono.png">
-                      </div>
-                      <div class="formulario">
-                        <form action="/action_page.php">
-                            <div>
-                          <label for="Nombre">Nombre o Empresa</label>
-                          <input type="text" id="nombre" name="nombre" placeholder="Escriba aqui su nombre">
-                          </div>
-                          <div>
-                          <label for="Teléfono">Teléfono de contacto</label>
-                          <input type="text" id="tel" name="telefono" placeholder="Escriba aqui su teléfono">
-                          </div>
-
-                          <label for="email">Email</label>
-                          <input type="email" id="mail" name="mail" placeholder="Escriba aqui su correo">
-                          
-                         <label for="pais">País</label>
-                          <select id="pais" name="pais">
+            <div class="contacto">
+                <form action="/action_page.php">
+                    <div>
+                        <label for="Nombre">Nombre o empresa</label> <br/>
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre o empresa">
+                    </div>
+                    <div>
+                        <label for="Teléfono">Teléfono de contacto</label><br/>
+                        <input type="text" id="tel" name="telefono" placeholder="Teléfono con el código de país">
+                    </div>
+                        <label for="email">Dir. de correo electrónico</label><br/>
+                        <input type="email" id="mail" name="mail" placeholder="Dirección con @">
+                    <div>
+                        <label for="pais">País</label>
+                        <select id="pais" name="pais">
                             <option value="Argentina">Argentina</option>
                             <option value="Uruguay">Uruguay</option>
                             <option value="otro">Otro</option>
-                          </select>
-                          <div></div>
-                          <label for="Consulta"></label>
-                          <textarea id="consulta" name="consulta" placeholder="Escriba aqui su consulta" style="height:170px"></textarea>
-                          <input type="submit" value="Enviar">
-                        </form>
-                      </div>
+                        </select>
                     </div>
-                  </div>
-               
+                    <div>
+                        <label for="consulta">Mensaje</label>
+                            <textarea id="consulta" name="consulta" placeholder="Dejanos tu mensaje"      style="height:170px"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+                <div class="telefono">
+                    <img src="./Images/telefono.png" alt="Teléfono noventoso">
+                </div>
+            </div>
         </div>
     </body>
 </html>
