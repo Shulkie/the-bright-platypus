@@ -26,7 +26,8 @@
             </div>
            
             <div class="contacto">
-                <h1>Comunicate con nosotras</h1>
+                <h1 class="comunicate">Comunicate con nosotras</h1>
+                <br/>
                 <form action="/action_page.php">
                     <div>
                         <label for="nombre">Nombre o empresa</label> <br/>
@@ -39,8 +40,9 @@
                         <label for="email">Dir. de correo electrónico</label><br/>
                         <input type="email" id="mail" name="mail" placeholder="Dirección con @">
                     <div>
-                        <label for="pais">País</label>
-                        <select id="pais" name="pais">
+                        <label for="pais" id="pais">País</label>
+                        <br/>
+                        <select name="pais">
                             <option value="Argentina">Argentina</option>
                             <option value="Uruguay">Uruguay</option>
                             <option value="otro">Otro</option>
@@ -51,12 +53,9 @@
                             <textarea id="consulta" name="consulta" placeholder="Dejanos tu mensaje" style="height:170px"></textarea>
                     </div>
                     <div>
-                        <input type="submit" value="Enviar">
+                        <input id="enviar" type="submit" value="Enviar">
                     </div>
                 </form>
-                <div class="telefono">
-                    <img src="./Images/telefono.png" class="telefono" alt="Teléfono noventoso">
-                </div>
             </div>
         </div>
     </body>

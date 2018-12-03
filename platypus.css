@@ -107,29 +107,44 @@ li {
 .contacto{
     margin-left: 5%;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
     font-family: "Roboto Mono", monospace; 
 }
 
 form {
     margin: 0 auto;
-    padding: 1em;
+    padding: 2em;
     border: 1px solid #04acb4;
     border-radius: 1em;
 }
 
+label {
+    display: inline-block;
+    width:15em;
+    text-align: left;
+    line-height: 2em;
 }
-input[type=submit] {
+
+
+input, select {
+    width: 25em;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-color: #04acb4;
+    line-height: 1.5em;
+}
+
+#enviar {
     background-color:#04acb4;
     color: white;
     border: none;
-    margin-top: 2%
+    margin-top: 5%;
 }
     
 #consulta{
- margin-top: 2%;
- float: left;
- width: 80%
+ margin: 2% 2% 2% 0%;
+ width: 80%;
+ border-color: #04acb4;
 }
 
 
