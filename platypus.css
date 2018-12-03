@@ -43,7 +43,8 @@ img{
     transition: 1s;
 }
 img:hover {
-    width: 30%
+    width: 30%;
+    transform: rotate(360deg)
 }
 
 .secciones {
