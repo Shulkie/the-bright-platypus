@@ -109,12 +109,13 @@ li {
     display: flex;
     justify-content: flex-start;
     font-family: "Roboto Mono", monospace; 
-    min-width: 70%;
 }
 
 form {
     margin: 0 auto;
-    width: 20%;
+    padding: 1em;
+    border: 1px solid #04acb4;
+    border-radius: 1em;
 }
 
 }
