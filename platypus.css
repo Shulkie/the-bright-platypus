@@ -105,14 +105,19 @@ li {
 }
 
 .contacto{
-    margin-left: 10%;
-    margin-right: 20%;
+    margin-left: 5%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: flex-start;
     font-family: "Roboto Mono", monospace; 
+    min-width: 70%;
 }
 
+form {
+    margin: 0 auto;
+    width: 20%;
+}
 
+}
 input[type=submit] {
     background-color:#04acb4;
     color: white;
@@ -126,6 +131,11 @@ input[type=submit] {
  width: 80%
 }
 
+
+[placeholder] {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
 footer{
     padding: 10px;
     text-align: center;
@@ -134,7 +144,6 @@ footer{
     margin-top:10%;
     font-size: 80%;
 }
-
 
 a {
     text-decoration: none;
