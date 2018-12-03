@@ -167,5 +167,9 @@ a {
 }
 
 .paginas{
-margin:15px
+    margin-left:30px;
+    margin-right: 50px
+}
+.NASA{
+    margin-top: 10%
 }
