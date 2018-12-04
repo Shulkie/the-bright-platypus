@@ -2,18 +2,3 @@
 
  /*recordar hacer media query para iphone para la imagen del bichito*/
  
-@media only screen and (min-width:300px) and (max-width: 400px) {
-.secciones {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
- 
- .menu {
-     display: flex;
-     flex-direction: column;
-     margin-top:25px;
- }
-
-
-}
