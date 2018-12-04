@@ -4,14 +4,4 @@
  
  
  
- @media only screen and (min-width: 300px) 
-and (max-width: 736px) {
-    .secciones {
-        display:flex;
-     }
-     
-     .menu {
-         display: flex;
-         flex-direction: row;
-         margin-top:25px; }
-     }
+ \
