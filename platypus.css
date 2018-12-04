@@ -133,6 +133,12 @@ li {
 .NASA{
     margin-top: 10%
 }
+.portafolio {
+    border-style: solid black 2px;
+    width:450x;
+    height:300px;
+    margin: auto;
+}
 
 /*contacto*/
 .contacto{
