@@ -173,3 +173,41 @@ a {
 .NASA{
     margin-top: 10%
 }
+@media only screen and (min-width: 300px) 
+and (max-width: 736px) {
+    .secciones {
+        display:flex;
+     }
+     
+     .menu{
+         position: fixed;
+     }
+
+     .menu a  {
+        
+        font-size: 10px;
+        
+
+        border-width: 1px;
+        border-image: linear-gradient(to right, #04acb4, #2ab898, #70bf6e, #b3bf44, #f9b338);
+        border-image-slice: 1 0 0 0;}
+
+         .cliente {
+            margin-top: 15%;
+            margin-left:40%;
+     }
+
+     .sabemos{
+         margin-left: 40%
+     }
+     .nosotras{
+      margin-left: 40%
+
+     }
+     .paginas{
+         margin-left: 40%;
+     }
+     .contacto{
+         margin-left:40%
+     }
+    }
