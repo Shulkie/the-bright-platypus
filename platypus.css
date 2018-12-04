@@ -55,6 +55,7 @@ align-items: center;
     display: flex;
     flex-direction: column;
     margin-top:25px;
+
 }
 .menu a  {
     font-family: 'Roboto Mono', monospace;
@@ -62,6 +63,7 @@ align-items: center;
     color: #845c1c;
     font-size: 20px;
     position: relative;
+    width: 200px;
     margin-top: 50px;
     padding-top: 20px;
     border-style: solid;
@@ -75,6 +77,23 @@ align-items: center;
     text-decoration: none;
 }
 
+footer{
+    padding: 10px;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    background-image: linear-gradient(to right, #04acb4, #2ab898, #70bf6e, #b3bf44, #f9b338);
+    margin-top:10%;
+    font-size: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: black 
+}
+
+/*acá termina todo lo de las páginas comunes*/
+
+/*indice*/
 .contenido {
     display: flex;
     flex-direction: column;
@@ -97,13 +116,23 @@ li {
     list-style-image: url('./Images/icon.svg');
 }
 
+/*nosotras*/
+
 .nosotras {
-    margin-right: 15px;
-}
-.portafolio { /*cambiar, agregado solo para el orden si le hacemos algo*/
-    background: black;
+    margin-right: 40%;
 }
 
+/*portafolio*/
+
+.paginas{
+    margin-left:20px;
+    margin-right: 50px
+}
+.NASA{
+    margin-top: 10%
+}
+
+/*contacto*/
 .contacto{
     margin-left: 5%;
     display: flex;
@@ -150,28 +179,6 @@ input, select {
 
 [placeholder] {
     font-family: 'Nanum Gothic Coding', monospace;
-}
-
-footer{
-    padding: 10px;
-    text-align: center;
-    font-family: "Roboto Mono", monospace;
-    background-image: linear-gradient(to right, #04acb4, #2ab898, #70bf6e, #b3bf44, #f9b338);
-    margin-top:10%;
-    font-size: 80%;
-}
-
-a {
-    text-decoration: none;
-    color: black 
-}
-
-.paginas{
-    margin-left:30px;
-    margin-right: 50px
-}
-.NASA{
-    margin-top: 10%
 }
 
 
