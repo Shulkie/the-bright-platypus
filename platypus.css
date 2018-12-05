@@ -186,9 +186,53 @@ input, select {
  border-color: #04acb4;
 }
 
-
 [placeholder] {
     font-family: 'Nanum Gothic Coding', monospace;
+}
+
+/*endless*/
+.loop {
+    text-align: center;
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin-left: 4%;
+}
+
+.prueba {
+margin: 10%;
+width: 100px;
+height: 100px;
+border-radius: 50px;
+}
+
+.death {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.uno {
+    cursor: pointer;
+    background: palevioletred;
+    transition: 1s;
+}
+.uno:hover {
+    background: purple;
+}
+
+.dos {
+    cursor: pointer;
+    background: darkgray;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.dos:hover {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px
+}
+
+.boton {
+    margin: 30%;
 }
 
 @media only screen and (min-width: 300px) 
